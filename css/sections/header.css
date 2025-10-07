@@ -17,6 +17,11 @@ header {
     font-weight: 600;
     color: var(--p-950);
   }
+
+  & a {
+    font-weight: 600;
+    color: var(--p-950);
+  }
 }
 
 .header__title {
@@ -53,7 +58,7 @@ header {
     /* line-clamp */
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 1;/* chỉ 1 dòng */
+    -webkit-line-clamp: 1; /* chỉ 1 dòng */
     line-clamp: 1;
     overflow: hidden;
     text-overflow: ellipsis; /* thêm dấu ... */
@@ -69,17 +74,15 @@ header {
 }
 
 .header__img {
-    border-radius: 100px;
-    width: 118px;
-    height: 118px;
-    box-shadow:
-        inset 0px -1px 1px hsla(0, 0%, 100%, 0.5),
-        0 4px 6px -1px hsla(0, 0%, 0%, 0.2),
-        0 2px 4px -2px hsla(0, 0%, 0%, 0.2),
-        inset 0px 1px 3px hsla(0, 0%, 0%, 0.1);
-    background-image: url('../../assets/avatarBang.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    flex-shrink: 0;
+  border-radius: 100px;
+  width: 118px;
+  height: 118px;
+  box-shadow: inset 0px -1px 1px hsla(0, 0%, 100%, 0.5),
+    0 4px 6px -1px hsla(0, 0%, 0%, 0.2), 0 2px 4px -2px hsla(0, 0%, 0%, 0.2),
+    inset 0px 1px 3px hsla(0, 0%, 0%, 0.1);
+  background-image: url("../../assets/avatarBang.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-shrink: 0;
 }
